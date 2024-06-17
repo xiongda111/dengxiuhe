@@ -1,0 +1,222 @@
+
+[2024-06-17 17:35:18,586-INFO]: ####### random ensembled DANN d3 pretrain for dataset office31-amazon #########
+[2024-06-17 17:37:37,771-INFO]: ETA:3:21:49, Epoch:3/200, iter:100/8800, lr:0.00092, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 3.9470 / 2.3861 / 0.5930 / 0.9679
+[2024-06-17 17:39:45,519-INFO]: ETA:3:11:18, Epoch:5/200, iter:200/8800, lr:0.00086, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.3913 / 1.1640 / 0.4562 / 0.7711
+[2024-06-17 17:41:51,949-INFO]: ETA:3:05:45, Epoch:7/200, iter:300/8800, lr:0.00080, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.5215 / 0.8833 / 0.6826 / 0.9556
+[2024-06-17 17:44:04,927-INFO]: ETA:3:04:13, Epoch:10/200, iter:400/8800, lr:0.00076, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.5904 / 0.7658 / 0.7675 / 1.0570
+[2024-06-17 17:46:15,057-INFO]: ETA:3:01:37, Epoch:12/200, iter:500/8800, lr:0.00071, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.3463 / 0.6789 / 0.6830 / 0.9844
+[2024-06-17 17:48:19,945-INFO]: ETA:2:57:58, Epoch:14/200, iter:600/8800, lr:0.00068, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2802 / 0.6274 / 0.6746 / 0.9781
+[2024-06-17 17:50:30,099-INFO]: ETA:2:55:47, Epoch:16/200, iter:700/8800, lr:0.00064, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2816 / 0.5887 / 0.6886 / 1.0043
+[2024-06-17 17:52:44,019-INFO]: ETA:2:54:14, Epoch:19/200, iter:800/8800, lr:0.00062, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2387 / 0.5281 / 0.6905 / 1.0202
+[2024-06-17 17:54:51,145-INFO]: ETA:2:55:53 VAL Epoch 20
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |     20     | 92.19  | 79.12/79.12 | 76.98/76.98 | 78.05/78.05 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.50  | 0.49 |  0.51  |
+|       |     dslr    |  0.44  | 0.52 |  0.48  |
+|       |    webcam   |  0.43  | 0.49 |  0.51  |
++-------+-------------+--------+------+--------+
+[2024-06-17 17:55:20,037-INFO]: ETA:2:55:46, Epoch:21/200, iter:900/8800, lr:0.00059, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2731 / 0.5367 / 0.6868 / 1.0495
+[2024-06-17 17:57:29,562-INFO]: ETA:2:53:01, Epoch:23/200, iter:1000/8800, lr:0.00057, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2181 / 0.4859 / 0.6769 / 1.0553
+[2024-06-17 17:59:41,650-INFO]: ETA:2:50:41, Epoch:25/200, iter:1100/8800, lr:0.00054, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2256 / 0.4767 / 0.6799 / 1.0691
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:10.167986, resuming normal operation.
+[2024-06-17 18:01:55,362-INFO]: ETA:2:48:32, Epoch:28/200, iter:1200/8800, lr:0.00052, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2454 / 0.4747 / 0.6951 / 1.0756
+[2024-06-17 18:04:07,282-INFO]: ETA:2:46:13, Epoch:30/200, iter:1300/8800, lr:0.00051, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.2081 / 0.4535 / 0.6896 / 1.0650
+[2024-06-17 18:06:16,500-INFO]: ETA:2:43:40, Epoch:32/200, iter:1400/8800, lr:0.00049, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1745 / 0.4208 / 0.6937 / 1.0600
+[2024-06-17 18:08:28,840-INFO]: ETA:2:41:25, Epoch:35/200, iter:1500/8800, lr:0.00047, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1700 / 0.4179 / 0.6945 / 1.0576
+[2024-06-17 18:10:36,458-INFO]: ETA:2:38:50, Epoch:37/200, iter:1600/8800, lr:0.00046, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1628 / 0.4156 / 0.6923 / 1.0549
+[2024-06-17 18:12:51,081-INFO]: ETA:2:36:47, Epoch:39/200, iter:1700/8800, lr:0.00045, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1556 / 0.3977 / 0.6973 / 1.0607
+[2024-06-17 18:14:52,976-INFO]: ETA:2:38:17 VAL Epoch 40
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |     40     | 95.99  | 80.72/80.72 | 79.37/79.37 | 80.05/80.05 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.39  | 0.48 |  0.52  |
+|       |     dslr    |  0.36  | 0.50 |  0.50  |
+|       |    webcam   |  0.36  | 0.47 |  0.53  |
++-------+-------------+--------+------+--------+
+[2024-06-17 18:15:44,424-INFO]: ETA:2:37:13, Epoch:41/200, iter:1800/8800, lr:0.00043, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1669 / 0.3980 / 0.7050 / 1.0639
+[2024-06-17 18:18:17,714-INFO]: ETA:2:36:06, Epoch:44/200, iter:1900/8800, lr:0.00042, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1528 / 0.3850 / 0.7034 / 1.0643
+[2024-06-17 18:20:38,658-INFO]: ETA:2:34:08, Epoch:46/200, iter:2000/8800, lr:0.00041, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1469 / 0.3782 / 0.7018 / 1.0669
+[2024-06-17 18:22:53,575-INFO]: ETA:2:31:48, Epoch:48/200, iter:2100/8800, lr:0.00040, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1416 / 0.3769 / 0.7037 / 1.0611
+[2024-06-17 18:25:13,650-INFO]: ETA:2:29:45, Epoch:50/200, iter:2200/8800, lr:0.00039, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1371 / 0.3645 / 0.7042 / 1.0684
+[2024-06-17 18:27:41,544-INFO]: ETA:2:28:02, Epoch:53/200, iter:2300/8800, lr:0.00038, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1249 / 0.3489 / 0.7031 / 1.0729
+[2024-06-17 18:29:57,532-INFO]: ETA:2:25:43, Epoch:55/200, iter:2400/8800, lr:0.00037, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1383 / 0.3582 / 0.7066 / 1.0734
+[2024-06-17 18:32:17,701-INFO]: ETA:2:23:36, Epoch:57/200, iter:2500/8800, lr:0.00036, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1483 / 0.3676 / 0.7036 / 1.0772
+[2024-06-17 18:34:38,467-INFO]: ETA:2:21:28, Epoch:60/200, iter:2600/8800, lr:0.00036, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.1232 / 0.3426 / 0.7048 / 1.0758
+[2024-06-17 18:35:55,898-INFO]: ETA:2:21:27 VAL Epoch 60
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |     60     | 96.91  | 82.93/82.93 | 78.87/78.87 | 80.90/80.90 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.43  | 0.48 |  0.52  |
+|       |     dslr    |  0.42  | 0.50 |  0.50  |
+|       |    webcam   |  0.41  | 0.48 |  0.52  |
++-------+-------------+--------+------+--------+
+[2024-06-17 18:37:24,607-INFO]: ETA:2:20:18, Epoch:62/200, iter:2700/8800, lr:0.00035, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0898 / 0.3112 / 0.7025 / 1.0761
+[2024-06-17 18:39:38,464-INFO]: ETA:2:17:51, Epoch:64/200, iter:2800/8800, lr:0.00034, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0953 / 0.3246 / 0.6985 / 1.0722
+[2024-06-17 18:41:51,045-INFO]: ETA:2:15:22, Epoch:66/200, iter:2900/8800, lr:0.00034, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0947 / 0.3243 / 0.7002 / 1.0702
+[2024-06-17 18:44:06,091-INFO]: ETA:2:12:59, Epoch:69/200, iter:3000/8800, lr:0.00033, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0957 / 0.3257 / 0.6980 / 1.0721
+[2024-06-17 18:46:27,147-INFO]: ETA:2:10:48, Epoch:71/200, iter:3100/8800, lr:0.00032, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0875 / 0.3146 / 0.6980 / 1.0749
+[2024-06-17 18:48:40,916-INFO]: ETA:2:08:24, Epoch:73/200, iter:3200/8800, lr:0.00032, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0880 / 0.3197 / 0.6977 / 1.0705
+[2024-06-17 18:50:51,841-INFO]: ETA:2:05:55, Epoch:75/200, iter:3300/8800, lr:0.00031, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0665 / 0.2969 / 0.7004 / 1.0693
+[2024-06-17 18:53:14,816-INFO]: ETA:2:03:46, Epoch:78/200, iter:3400/8800, lr:0.00031, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0638 / 0.2999 / 0.7003 / 1.0636
+[2024-06-17 18:55:31,914-INFO]: ETA:2:01:28, Epoch:80/200, iter:3500/8800, lr:0.00030, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0576 / 0.2991 / 0.6957 / 1.0628
+[2024-06-17 18:56:32,718-INFO]: ETA:2:01:51 VAL Epoch 80
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |     60     | 97.91  | 82.73/82.93 | 78.24/78.87 | 80.48/80.90 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.48  | 0.49 |  0.51  |
+|       |     dslr    |  0.46  | 0.50 |  0.50  |
+|       |    webcam   |  0.46  | 0.48 |  0.52  |
++-------+-------------+--------+------+--------+
+[2024-06-17 18:58:20,666-INFO]: ETA:1:59:56, Epoch:82/200, iter:3600/8800, lr:0.00030, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0468 / 0.2908 / 0.6943 / 1.0617
+[2024-06-17 19:00:46,628-INFO]: ETA:1:57:48, Epoch:85/200, iter:3700/8800, lr:0.00029, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0529 / 0.2992 / 0.6952 / 1.0584
+[2024-06-17 19:03:02,753-INFO]: ETA:1:55:26, Epoch:87/200, iter:3800/8800, lr:0.00029, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0499 / 0.2960 / 0.6947 / 1.0592
+[2024-06-17 19:05:13,498-INFO]: ETA:1:52:58, Epoch:89/200, iter:3900/8800, lr:0.00028, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0372 / 0.2834 / 0.6942 / 1.0596
+[2024-06-17 19:07:27,315-INFO]: ETA:1:50:34, Epoch:91/200, iter:4000/8800, lr:0.00028, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0288 / 0.2790 / 0.6929 / 1.0569
+[2024-06-17 19:09:41,270-INFO]: ETA:1:48:11, Epoch:94/200, iter:4100/8800, lr:0.00027, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0353 / 0.2877 / 0.6920 / 1.0556
+[2024-06-17 19:11:43,356-INFO]: ETA:1:45:35, Epoch:96/200, iter:4200/8800, lr:0.00027, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0099 / 0.2617 / 0.6923 / 1.0559
+[2024-06-17 19:13:53,574-INFO]: ETA:1:43:10, Epoch:98/200, iter:4300/8800, lr:0.00026, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0138 / 0.2678 / 0.6910 / 1.0550
+[2024-06-17 19:15:59,949-INFO]: ETA:1:40:41, Epoch:100/200, iter:4400/8800, lr:0.00026, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0277 / 0.2808 / 0.6928 / 1.0541
+[2024-06-17 19:16:33,437-INFO]: ETA:1:41:14 VAL Epoch 100
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |     60     | 98.47  | 82.93/82.93 | 78.74/78.87 | 80.84/80.90 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.51  | 0.50 |  0.50  |
+|       |     dslr    |  0.51  | 0.51 |  0.49  |
+|       |    webcam   |  0.50  | 0.50 |  0.50  |
++-------+-------------+--------+------+--------+
+[2024-06-17 19:18:42,478-INFO]: ETA:1:38:48, Epoch:103/200, iter:4500/8800, lr:0.00026, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0088 / 0.2630 / 0.6925 / 1.0533
+[2024-06-17 19:20:49,210-INFO]: ETA:1:36:20, Epoch:105/200, iter:4600/8800, lr:0.00025, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0021 / 0.2551 / 0.6912 / 1.0558
+[2024-06-17 19:22:55,909-INFO]: ETA:1:33:52, Epoch:107/200, iter:4700/8800, lr:0.00025, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0015 / 0.2590 / 0.6892 / 1.0533
+[2024-06-17 19:25:06,062-INFO]: ETA:1:31:29, Epoch:110/200, iter:4800/8800, lr:0.00025, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9956 / 0.2554 / 0.6912 / 1.0490
+[2024-06-17 19:27:17,058-INFO]: ETA:1:29:07, Epoch:112/200, iter:4900/8800, lr:0.00024, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9933 / 0.2535 / 0.6892 / 1.0506
+[2024-06-17 19:29:26,462-INFO]: ETA:1:26:44, Epoch:114/200, iter:5000/8800, lr:0.00024, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 2.0062 / 0.2680 / 0.6882 / 1.0501
+[2024-06-17 19:31:30,609-INFO]: ETA:1:24:18, Epoch:116/200, iter:5100/8800, lr:0.00024, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9936 / 0.2564 / 0.6891 / 1.0481
+[2024-06-17 19:33:46,780-INFO]: ETA:1:22:01, Epoch:119/200, iter:5200/8800, lr:0.00023, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9759 / 0.2375 / 0.6919 / 1.0465
+[2024-06-17 19:35:52,174-INFO]: ETA:1:20:22 VAL Epoch 120
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |    120     | 99.04  | 83.53/83.53 | 79.62/79.62 | 81.58/81.58 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.54  | 0.49 |  0.51  |
+|       |     dslr    |  0.53  | 0.50 |  0.50  |
+|       |    webcam   |  0.53  | 0.49 |  0.51  |
++-------+-------------+--------+------+--------+
+[2024-06-17 19:36:25,095-INFO]: ETA:1:19:58, Epoch:121/200, iter:5300/8800, lr:0.00023, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9746 / 0.2377 / 0.6910 / 1.0458
+[2024-06-17 19:38:29,375-INFO]: ETA:1:17:33, Epoch:123/200, iter:5400/8800, lr:0.00023, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9826 / 0.2465 / 0.6884 / 1.0477
+[2024-06-17 19:40:41,176-INFO]: ETA:1:15:13, Epoch:125/200, iter:5500/8800, lr:0.00023, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9742 / 0.2387 / 0.6903 / 1.0452
+[2024-06-17 19:42:56,472-INFO]: ETA:1:12:55, Epoch:128/200, iter:5600/8800, lr:0.00022, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9718 / 0.2387 / 0.6902 / 1.0429
+[2024-06-17 19:44:59,409-INFO]: ETA:1:10:31, Epoch:130/200, iter:5700/8800, lr:0.00022, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9768 / 0.2391 / 0.6912 / 1.0465
+[2024-06-17 19:47:07,814-INFO]: ETA:1:08:10, Epoch:132/200, iter:5800/8800, lr:0.00022, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9635 / 0.2290 / 0.6905 / 1.0440
+[2024-06-17 19:49:21,391-INFO]: ETA:1:05:53, Epoch:135/200, iter:5900/8800, lr:0.00022, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9580 / 0.2215 / 0.6922 / 1.0443
+[2024-06-17 19:51:23,443-INFO]: ETA:1:03:30, Epoch:137/200, iter:6000/8800, lr:0.00021, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9727 / 0.2364 / 0.6898 / 1.0465
+[2024-06-17 19:53:34,818-INFO]: ETA:1:01:12, Epoch:139/200, iter:6100/8800, lr:0.00021, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9551 / 0.2199 / 0.6918 / 1.0435
+[2024-06-17 19:55:22,161-INFO]: ETA:1:00:01 VAL Epoch 140
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |    120     | 99.36  | 83.53/83.53 | 79.50/79.62 | 81.52/81.58 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.55  | 0.49 |  0.51  |
+|       |     dslr    |  0.54  | 0.50 |  0.50  |
+|       |    webcam   |  0.54  | 0.49 |  0.51  |
++-------+-------------+--------+------+--------+
+[2024-06-17 19:56:17,905-INFO]: ETA:0:59:07, Epoch:141/200, iter:6200/8800, lr:0.00021, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9530 / 0.2180 / 0.6901 / 1.0448
+[2024-06-17 19:58:29,356-INFO]: ETA:0:56:49, Epoch:144/200, iter:6300/8800, lr:0.00021, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9654 / 0.2304 / 0.6916 / 1.0434
+[2024-06-17 20:00:37,953-INFO]: ETA:0:54:29, Epoch:146/200, iter:6400/8800, lr:0.00021, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9669 / 0.2346 / 0.6908 / 1.0415
+[2024-06-17 20:02:43,943-INFO]: ETA:0:52:09, Epoch:148/200, iter:6500/8800, lr:0.00020, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9534 / 0.2182 / 0.6910 / 1.0442
+[2024-06-17 20:04:45,458-INFO]: ETA:0:49:48, Epoch:150/200, iter:6600/8800, lr:0.00020, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9517 / 0.2159 / 0.6923 / 1.0435
+[2024-06-17 20:07:03,306-INFO]: ETA:0:47:33, Epoch:153/200, iter:6700/8800, lr:0.00020, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9459 / 0.2127 / 0.6916 / 1.0417
+[2024-06-17 20:09:10,468-INFO]: ETA:0:45:15, Epoch:155/200, iter:6800/8800, lr:0.00020, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9399 / 0.2050 / 0.6928 / 1.0421
+[2024-06-17 20:11:15,269-INFO]: ETA:0:42:56, Epoch:157/200, iter:6900/8800, lr:0.00020, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9471 / 0.2105 / 0.6935 / 1.0431
+[2024-06-17 20:13:29,973-INFO]: ETA:0:40:40, Epoch:160/200, iter:7000/8800, lr:0.00019, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9422 / 0.2065 / 0.6926 / 1.0431
+[2024-06-17 20:14:55,094-INFO]: ETA:0:39:54 VAL Epoch 160
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |    160     | 99.57  | 83.94/83.94 | 79.87/79.87 | 81.90/81.90 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.55  | 0.49 |  0.51  |
+|       |     dslr    |  0.54  | 0.50 |  0.50  |
+|       |    webcam   |  0.54  | 0.49 |  0.51  |
++-------+-------------+--------+------+--------+
+[2024-06-17 20:16:18,668-INFO]: ETA:0:38:32, Epoch:162/200, iter:7100/8800, lr:0.00019, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9542 / 0.2174 / 0.6939 / 1.0430
+[2024-06-17 20:18:25,757-INFO]: ETA:0:36:14, Epoch:164/200, iter:7200/8800, lr:0.00019, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9327 / 0.2013 / 0.6913 / 1.0400
+[2024-06-17 20:20:40,182-INFO]: ETA:0:33:58, Epoch:166/200, iter:7300/8800, lr:0.00019, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9576 / 0.2246 / 0.6923 / 1.0407
+[2024-06-17 20:23:02,271-INFO]: ETA:0:31:43, Epoch:169/200, iter:7400/8800, lr:0.00019, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9420 / 0.2094 / 0.6914 / 1.0412
+[2024-06-17 20:25:10,986-INFO]: ETA:0:29:26, Epoch:171/200, iter:7500/8800, lr:0.00018, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9362 / 0.2023 / 0.6935 / 1.0403
+[2024-06-17 20:27:28,045-INFO]: ETA:0:27:10, Epoch:173/200, iter:7600/8800, lr:0.00018, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9326 / 0.2034 / 0.6920 / 1.0372
+[2024-06-17 20:29:41,862-INFO]: ETA:0:24:54, Epoch:175/200, iter:7700/8800, lr:0.00018, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9320 / 0.1987 / 0.6936 / 1.0396
+[2024-06-17 20:31:56,486-INFO]: ETA:0:22:38, Epoch:178/200, iter:7800/8800, lr:0.00018, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9420 / 0.2094 / 0.6923 / 1.0403
+[2024-06-17 20:34:11,588-INFO]: ETA:0:20:22, Epoch:180/200, iter:7900/8800, lr:0.00018, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9327 / 0.2031 / 0.6908 / 1.0387
+[2024-06-17 20:35:03,865-INFO]: ETA:0:19:58 VAL Epoch 180
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |    160     | 99.61  | 83.53/83.94 | 79.12/79.87 | 81.33/81.90 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.55  | 0.49 |  0.51  |
+|       |     dslr    |  0.54  | 0.50 |  0.50  |
+|       |    webcam   |  0.54  | 0.49 |  0.51  |
++-------+-------------+--------+------+--------+
+[2024-06-17 20:36:54,172-INFO]: ETA:0:18:09, Epoch:182/200, iter:8000/8800, lr:0.00018, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9267 / 0.1932 / 0.6943 / 1.0392
+[2024-06-17 20:39:05,373-INFO]: ETA:0:15:52, Epoch:185/200, iter:8100/8800, lr:0.00018, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9218 / 0.1896 / 0.6926 / 1.0396
+[2024-06-17 20:41:13,303-INFO]: ETA:0:13:36, Epoch:187/200, iter:8200/8800, lr:0.00017, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9303 / 0.2001 / 0.6909 / 1.0392
+[2024-06-17 20:43:21,247-INFO]: ETA:0:11:19, Epoch:189/200, iter:8300/8800, lr:0.00017, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9203 / 0.1920 / 0.6909 / 1.0374
+[2024-06-17 20:45:24,735-INFO]: ETA:0:09:03, Epoch:191/200, iter:8400/8800, lr:0.00017, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9410 / 0.2112 / 0.6920 / 1.0379
+[2024-06-17 20:47:44,216-INFO]: ETA:0:06:47, Epoch:194/200, iter:8500/8800, lr:0.00017, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9305 / 0.1989 / 0.6934 / 1.0381
+[2024-06-17 20:49:52,416-INFO]: ETA:0:04:31, Epoch:196/200, iter:8600/8800, lr:0.00017, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9340 / 0.2007 / 0.6940 / 1.0393
+[2024-06-17 20:51:55,868-INFO]: ETA:0:02:15, Epoch:198/200, iter:8700/8800, lr:0.00017, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9224 / 0.1914 / 0.6911 / 1.0399
+[2024-06-17 20:54:03,845-INFO]: ETA:0:00:00, Epoch:200/200, iter:8800/8800, lr:0.00017, student-loss / cls-loss / src-discrim-loss / tgt-discrim-loss: 1.9240 / 0.1908 / 0.6930 / 1.0402
+[2024-06-17 20:54:38,191-INFO]: ETA:0:00:00 VAL Epoch 200
++-------+------------+--------+-------------+-------------+-------------+
+| model | best-epoch | amazon |     dslr    |    webcam   |     mean    |
++-------+------------+--------+-------------+-------------+-------------+
+|  main |    200     | 99.72  | 84.14/84.14 | 79.75/79.75 | 81.94/81.94 |
++-------+------------+--------+-------------+-------------+-------------+
++-------+-------------+--------+------+--------+
+| model | data domain | amazon | dslr | webcam |
++-------+-------------+--------+------+--------+
+|  main |    amazon   |  0.54  | 0.49 |  0.51  |
+|       |     dslr    |  0.53  | 0.50 |  0.50  |
+|       |    webcam   |  0.53  | 0.49 |  0.51  |
++-------+-------------+--------+------+--------+
+[2024-06-17 20:54:38,192-INFO]: ######### End! ##########

@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-06-17T09:35:12.542752",
+    "startedAt": "2024-06-17T09:35:10.382929",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config_file",
+        "config/pretrain_dann_d3/office31/pretrain_dann_d3_office31_tgtw-1.0_resnet50_bs64-32_sgd_amazon_seed-777.yaml"
+    ],
+    "state": "running",
+    "program": "D:\\project\\D3GU-master\\D3GU-master\\pretrain_dann_d3.py",
+    "codePathLocal": "pretrain_dann_d3.py",
+    "codePath": "pretrain_dann_d3.py",
+    "host": "BF-202310141709",
+    "username": "Administrator",
+    "executable": "D:\\Anaconda3\\envs\\pytorch1\\python.exe",
+    "cpu_count": 10,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 753.4465980529785,
+            "used": 181.6818084716797
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "memory_total": 17175674880
+        }
+    ],
+    "memory": {
+        "total": 31.772735595703125
+    }
+}
