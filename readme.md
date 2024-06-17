@@ -1,4 +1,4 @@
-# D<sup>3</sup>GU: Multi-target Active Domain Adaptation via Enhancing Domain Alignment (WACV 2024)
+# D<sup>3</sup>GU: Multi-target Active Domain Adaptation via Enhancing Domain Alignment 
 <hr/>
 <a href="https://arxiv.org/abs/2401.05465"><img src="https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>  
